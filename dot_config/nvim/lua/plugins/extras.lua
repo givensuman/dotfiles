@@ -1,7 +1,3 @@
-if true then
-  return {}
-end
-
 return {
   { import = "lazyvim.plugins.extras.coding.mini-surround" },
   { import = "lazyvim.plugins.extras.coding.yanky" },
