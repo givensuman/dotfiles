@@ -1,0 +1,6 @@
+# pack-refs with: peeled fully-peeled sorted 
+8457d3c0fe2cf31d766496e178fe4c40608374c4 refs/remotes/origin/dependabot/github_actions/trunk-io/trunk-action-1.1.15
+b1854838aa09fb2814a48f01aad8e1968483e64f refs/remotes/origin/main
+f92b44334bfe08e16f075e80ec4ed61941fea064 refs/remotes/origin/next
+56ddb33cf371089b6debbe27c239f5b441d5cf11 refs/tags/v1.0.0
+4866c6fc109423901075288b55e098ea6993819a refs/tags/v1.0.1
