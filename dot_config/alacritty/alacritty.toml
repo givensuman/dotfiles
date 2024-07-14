@@ -1,0 +1,37 @@
+import = [
+  # "~/.config/alacritty/tokyo-night.toml",
+  "~/.config/alacritty/catppuccin-mocha.toml",
+]
+
+[window]
+
+padding.x = 10
+padding.y = 10
+
+dynamic_padding = true
+
+decorations = "transparent"
+decorations_theme_variant = "Dark"
+
+title = "🌿🌸🌺🌼🌱"
+dynamic_title = false
+
+opacity = 0.9
+
+[font]
+
+normal = { family = "HackNerdFontMono", style = "Regular" }
+bold = { family = "HackNerdFontMono", style = "Bold" }
+italic = { family = "HackNerdFontMono", style = "Italic" }
+bold_italic = { family = "HackNerdFontMono", style = "Bold Italic" }
+
+size = 13
+
+[scrolling]
+
+multiplier = 15
+
+[bell]
+
+animation = "EaseOutExpo"
+duration = 500
