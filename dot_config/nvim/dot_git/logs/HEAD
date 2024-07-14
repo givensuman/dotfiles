@@ -1,0 +1,14 @@
+0000000000000000000000000000000000000000 67137845e30c34589d75aaf8f0c01b9f90dba7fd givensuman <givensuman@duck.com> 1720490164 -0400	clone: from https://github.com/givensuman/nvimrc
+67137845e30c34589d75aaf8f0c01b9f90dba7fd c030a48e2474bff427225ead62ec95bbfc7fd599 givensuman <givensuman@duck.com> 1720492116 -0400	commit: Tweaks to lualine
+c030a48e2474bff427225ead62ec95bbfc7fd599 8ef6c5a74faef55dfb05580c641c57ff4485151f givensuman <givensuman@duck.com> 1720528281 -0400	commit: Tweaks to LazyVim vers
+8ef6c5a74faef55dfb05580c641c57ff4485151f 97c624d6714dac1de33bc5cf1adf9ed0b395eac1 givensuman <givensuman@duck.com> 1720580718 -0400	commit: Continuing to tweak LazyVim
+97c624d6714dac1de33bc5cf1adf9ed0b395eac1 12b70066dfb0a4f08728fff3ff439314b1a78a70 givensuman <givensuman@duck.com> 1720659859 -0400	commit: Fix comments and some other stuff
+12b70066dfb0a4f08728fff3ff439314b1a78a70 475a243b952a0663bd39a4d6e0062da683adf584 givensuman <givensuman@duck.com> 1720665328 -0400	commit: Add scrollbar
+475a243b952a0663bd39a4d6e0062da683adf584 90cfddb7cfeaaaef9dfb7d0568dd5bcda7659d5e givensuman <givensuman@duck.com> 1720665608 -0400	commit: Tweak comment import
+90cfddb7cfeaaaef9dfb7d0568dd5bcda7659d5e 6af4dfe6a68005d226509f71d5503941de110672 givensuman <givensuman@duck.com> 1720666363 -0400	commit: Update README
+6af4dfe6a68005d226509f71d5503941de110672 7827dab8482a09f640d29d88c835975eeaea059d givensuman <givensuman@duck.com> 1720698287 -0400	commit: Autocomplete woroking much better
+7827dab8482a09f640d29d88c835975eeaea059d 21fccf3f07d95b811d5a72d5dd657a26724c04af givensuman <givensuman@duck.com> 1720704694 -0400	commit: fix lsp popups
+21fccf3f07d95b811d5a72d5dd657a26724c04af 702634b05cc0d45573895bc8c5fd22cd381b1b30 givensuman <givensuman@duck.com> 1720802963 -0400	commit: Add tab keybinding for indentation
+702634b05cc0d45573895bc8c5fd22cd381b1b30 010c9f907258303a6ab4ee2168d013d341036137 givensuman <givensuman@duck.com> 1720809848 -0400	commit: Customize lualine
+010c9f907258303a6ab4ee2168d013d341036137 5ef48e3b99a11ac1ca01d523470b0483ef692aa3 givensuman <givensuman@duck.com> 1720836863 -0400	commit: all good homeboy
+5ef48e3b99a11ac1ca01d523470b0483ef692aa3 3076606ca19289cf107ff4d758dfb1aaf24e3c97 givensuman <givensuman@duck.com> 1720971464 -0400	commit: lualine be like that
