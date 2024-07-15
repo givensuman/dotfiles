@@ -127,6 +127,7 @@ plugins=(
   zsh-syntax-highlighting # must be last
 )
 
+export APPA_ZSH_THEME_PROMPT_ICON="󰄛"
 ZSH_THEME="appa"
 bindkey '^g' autosuggest-accept
 bindkey '^f' forward-word

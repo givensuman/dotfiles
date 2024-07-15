@@ -68,7 +68,9 @@ precmd() {
 }
 
 # Define prompts
-PROMPT="%(?.%F{magenta}.%F{red})%f " # Display a red prompt char on failure
+ICON=${APPA_ZSH_THEME_PROMPT_ICON:-""}
+COLOR=${APPA_ZSH_THEME_PROMPT_COLOR:-"magenta"}
+PROMPT="%(?.%F{${COLOR}}.%F{red})${ICON}%f " # Display a red prompt char on failure
 RPROMPT="%F{8}${SSH_TTY:+%n@%m}%f" # Display username if connected via SSH
 
 # ------------------------------------------------------------------------------
