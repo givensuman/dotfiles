@@ -31,6 +31,7 @@ eval "$(fnm env --use-on-cd)"
 
 # nvim
 export PATH="$PATH:/opt/nvim-linux64/bin"
+export EDITOR="nvim"
 
 # golang
 export PATH="$PATH:/usr/local/go/bin"
