@@ -129,8 +129,8 @@ plugins=(
 
 export APPA_ZSH_THEME_PROMPT_ICON="󰄛"
 ZSH_THEME="appa"
-bindkey '^g' autosuggest-accept
-bindkey '^f' forward-word
+bindkey -r '^g' autosuggest-accept
+bindkey -r '^f' forward-word
 export AUTOCD=1
 
 # oh-my-zsh
