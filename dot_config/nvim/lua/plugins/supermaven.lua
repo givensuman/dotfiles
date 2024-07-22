@@ -1,3 +1,9 @@
+-- Supermaven is still in a buggy state,
+-- use Codeium for time being
+if true then
+  return {}
+end
+
 return {
   {
     "nvim-cmp",
