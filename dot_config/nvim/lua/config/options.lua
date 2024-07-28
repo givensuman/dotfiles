@@ -7,3 +7,4 @@ opt.wrap = true
 -- opt.shiftwidth = 4
 -- opt.tabstop = 4
 opt.showmode = false
+opt.cursorline = true
