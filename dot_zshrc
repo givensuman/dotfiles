@@ -121,6 +121,7 @@ plugins=(
   common-aliases
   command-not-found
   tmux
+  zsh-allclear
   zsh-eza
   zsh-bat
   zsh-autosuggestions # must be second-to-last
