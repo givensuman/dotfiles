@@ -1,8 +1,8 @@
 local function map(mode, lhs, rhs, opts)
   local options = { noremap = true, silent = true }
   if opts then
-    if opts.desc then
-      opts.desc = "keymaps.lua: " .. opts.desc
+    if not opts.desc then
+      opts.desc = "from keymaps.lua"
     end
     options = vim.tbl_extend("force", options, opts)
   end
