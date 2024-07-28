@@ -26,6 +26,11 @@ end, { desc = "Toggle Explorer Focus" })
 -- Block indentation via tab and shift/tab
 map("v", "<TAB>", ">gv")
 map("v", "<S-TAB>", "<gv")
+-- :help mode()
+map("V", "<TAB>", ">gv")
+map("V", "<S-TAB>", "<gv")
+map("CTRL-V", "<TAB>", ">gv")
+map("CTRL-V", "<S-TAB>", "<gv")
 
 -- AstroNvim-like Telescope bindings
 map("n", "<LEADER>f/", function()
