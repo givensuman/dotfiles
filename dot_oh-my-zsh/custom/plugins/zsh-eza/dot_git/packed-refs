@@ -1,6 +1,0 @@
-# pack-refs with: peeled fully-peeled sorted 
-4127f435a979de51632860d40808435690e4777f refs/remotes/origin/28-bug-adding-zsh-eza-without-eza-installed-prevents-zsh-startup
-b0b0b02f8329dcc0c032df8773dd140e0960c63f refs/remotes/origin/main
-f92b44334bfe08e16f075e80ec4ed61941fea064 refs/remotes/origin/next
-56ddb33cf371089b6debbe27c239f5b441d5cf11 refs/tags/v1.0.0
-4866c6fc109423901075288b55e098ea6993819a refs/tags/v1.0.1

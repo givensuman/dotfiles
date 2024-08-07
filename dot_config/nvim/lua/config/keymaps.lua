@@ -142,7 +142,7 @@ if vim.fn.executable("rg") == 1 then
   end, { desc = "Find words in all files" })
 end
 
-map("n", "<LEADER>lD", function()
+map("n", "<LEADER>fD", function()
   require("telescope.builtin").diagnostics()
 end, { desc = "Search diagnostics" })
 
