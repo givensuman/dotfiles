@@ -34,6 +34,3 @@ done
 # load plugins
 source ~/.config/zsh/antidote/antidote.zsh
 antidote load ~/.config/zsh/_plugins.txt
-
-# load theme
-source ~/.config/zsh/themes/appa-zsh-theme/appa.zsh-theme

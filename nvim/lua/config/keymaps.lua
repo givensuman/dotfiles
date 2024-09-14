@@ -69,14 +69,6 @@ map("n", "<LEADER>f/", function()
   require("telescope.builtin").current_buffer_fuzzy_find()
 end, { desc = "Find words in current buffer" })
 
-map("n", "<LEADER>fa", function()
-  require("telescope.builtin").find_files({
-    prompt_title = "Config Files",
-    cwd = vim.fn.stdpath("config"),
-    follow = true,
-  })
-end, { desc = "Find AstroNvim config files" })
-
 map("n", "<LEADER>fb", function()
   require("telescope.builtin").buffers()
 end, { desc = "Find buffers" })

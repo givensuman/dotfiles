@@ -8,3 +8,4 @@ opt.wrap = true
 -- opt.tabstop = 4
 opt.showmode = false
 opt.cursorline = true
+opt.clipboard = "unnamedplus"

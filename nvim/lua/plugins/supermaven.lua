@@ -23,7 +23,7 @@ return {
       end,
     },
     opts = {
-      preselect = "none",
+      -- preselect = "none",
       completion = {
         completeopt = "menu,menuone,noinsert,noselect",
       },

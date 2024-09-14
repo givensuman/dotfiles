@@ -1,5 +1,3 @@
-vim.o.cursorline = true
-
 return {
   "mawkler/modicator.nvim",
   dependencies = "catppuccin/nvim",
@@ -7,6 +5,7 @@ return {
     -- vim.o.cursorline = true
     vim.o.number = true
     vim.o.termguicolors = true
+    vim.o.cursorline = true
   end,
   opts = {
     show_warnings = true,
