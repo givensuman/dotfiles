@@ -6,6 +6,16 @@ fpath+=( $HOME/.cache/antidote/https-COLON--SLASH--SLASH-github.com-SLASH-z-shel
 source $HOME/.cache/antidote/https-COLON--SLASH--SLASH-github.com-SLASH-z-shell-SLASH-zsh-eza/zsh-eza.plugin.zsh
 fpath+=( $HOME/.cache/antidote/https-COLON--SLASH--SLASH-github.com-SLASH-fdellwing-SLASH-zsh-bat )
 source $HOME/.cache/antidote/https-COLON--SLASH--SLASH-github.com-SLASH-fdellwing-SLASH-zsh-bat/zsh-bat.plugin.zsh
+fpath+=( $HOME/.cache/antidote/https-COLON--SLASH--SLASH-github.com-SLASH-djui-SLASH-alias-tips )
+source $HOME/.cache/antidote/https-COLON--SLASH--SLASH-github.com-SLASH-djui-SLASH-alias-tips/alias-tips.plugin.zsh
+fpath+=( $HOME/.cache/antidote/https-COLON--SLASH--SLASH-github.com-SLASH-chrissicool-SLASH-zsh-256color )
+source $HOME/.cache/antidote/https-COLON--SLASH--SLASH-github.com-SLASH-chrissicool-SLASH-zsh-256color/zsh-256color.plugin.zsh
+fpath+=( $HOME/.cache/antidote/https-COLON--SLASH--SLASH-github.com-SLASH-unixorn-SLASH-git-extra-commands )
+source $HOME/.cache/antidote/https-COLON--SLASH--SLASH-github.com-SLASH-unixorn-SLASH-git-extra-commands/git-extra-commands.plugin.zsh
+fpath+=( $HOME/.cache/antidote/https-COLON--SLASH--SLASH-github.com-SLASH-unixorn-SLASH-jpb.zshplugin )
+source $HOME/.cache/antidote/https-COLON--SLASH--SLASH-github.com-SLASH-unixorn-SLASH-jpb.zshplugin/jpb.plugin.zsh
+fpath+=( $HOME/.cache/antidote/https-COLON--SLASH--SLASH-github.com-SLASH-fdw-SLASH-yazi-zoxide-zsh )
+source $HOME/.cache/antidote/https-COLON--SLASH--SLASH-github.com-SLASH-fdw-SLASH-yazi-zoxide-zsh/ranger-zoxide.plugin.zsh
 fpath+=( $HOME/.cache/antidote/https-COLON--SLASH--SLASH-github.com-SLASH-ohmyzsh-SLASH-ohmyzsh/plugins/command-not-found )
 source $HOME/.cache/antidote/https-COLON--SLASH--SLASH-github.com-SLASH-ohmyzsh-SLASH-ohmyzsh/plugins/command-not-found/command-not-found.plugin.zsh
 fpath+=( $HOME/.cache/antidote/https-COLON--SLASH--SLASH-github.com-SLASH-ohmyzsh-SLASH-ohmyzsh/plugins/common-aliases )
@@ -14,6 +24,8 @@ fpath+=( $HOME/.cache/antidote/https-COLON--SLASH--SLASH-github.com-SLASH-ohmyzs
 source $HOME/.cache/antidote/https-COLON--SLASH--SLASH-github.com-SLASH-ohmyzsh-SLASH-ohmyzsh/plugins/copyfile/copyfile.plugin.zsh
 fpath+=( $HOME/.cache/antidote/https-COLON--SLASH--SLASH-github.com-SLASH-ohmyzsh-SLASH-ohmyzsh/plugins/copypath )
 source $HOME/.cache/antidote/https-COLON--SLASH--SLASH-github.com-SLASH-ohmyzsh-SLASH-ohmyzsh/plugins/copypath/copypath.plugin.zsh
+fpath+=( $HOME/.cache/antidote/https-COLON--SLASH--SLASH-github.com-SLASH-ohmyzsh-SLASH-ohmyzsh/plugins/fzf )
+source $HOME/.cache/antidote/https-COLON--SLASH--SLASH-github.com-SLASH-ohmyzsh-SLASH-ohmyzsh/plugins/fzf/fzf.plugin.zsh
 fpath+=( $HOME/.cache/antidote/https-COLON--SLASH--SLASH-github.com-SLASH-ohmyzsh-SLASH-ohmyzsh/plugins/git )
 source $HOME/.cache/antidote/https-COLON--SLASH--SLASH-github.com-SLASH-ohmyzsh-SLASH-ohmyzsh/plugins/git/git.plugin.zsh
 fpath+=( $HOME/.cache/antidote/https-COLON--SLASH--SLASH-github.com-SLASH-ohmyzsh-SLASH-ohmyzsh/plugins/git-extras )

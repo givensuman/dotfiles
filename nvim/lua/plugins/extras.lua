@@ -5,7 +5,11 @@ return {
   { import = "lazyvim.plugins.extras.dap.core" },
   { import = "lazyvim.plugins.extras.dap.nlua" },
 
+  { import = "lazyvim.plugins.extras.editor.dial" },
   { import = "lazyvim.plugins.extras.editor.illuminate" },
+  { import = "lazyvim.plugins.extras.editor.outline" },
+
+  { import = "lazyvim.plugins.extras.formatting.prettier" },
 
   { import = "lazyvim.plugins.extras.lang.astro" },
   { import = "lazyvim.plugins.extras.lang.clangd" },
@@ -24,6 +28,8 @@ return {
   { import = "lazyvim.plugins.extras.lang.toml" },
   { import = "lazyvim.plugins.extras.lang.typescript" },
   { import = "lazyvim.plugins.extras.lang.yaml" },
+
+  { import = "lazyvim.plugins.extras.linting.eslint" },
 
   { import = "lazyvim.plugins.extras.lsp.none-ls" },
 

@@ -8,6 +8,6 @@ return {
     vim.o.cursorline = true
   end,
   opts = {
-    show_warnings = true,
+    show_warnings = false,
   },
 }

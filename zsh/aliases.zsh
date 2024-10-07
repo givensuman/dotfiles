@@ -1,5 +1,14 @@
 #!/bin/zsh
 
+# we stan dotfiles
+alias config.nvim="cd ~/.config/nvim && nvim ."
+alias config.zshrc="nvim ~/.zshrc"
+alias config.zsh="cd ~/.config/zsh && nvim ."
+alias config.hypr="cd ~/.config/hypr && nvim ."
+alias config.rofi="cd ~/.config/rofi && nvim ."
+alias config.alacitty="cd ~/.config/alacritty && nvim ."
+alias config.waybar="cd ~/.config/waybar && nvim ."
+
 # list processes
 alias processes="ps -f"
 
