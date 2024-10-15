@@ -11,6 +11,7 @@
 #         _\///__\///////////__\//////////__\///____\///__\///____________\////////__
 
 unsetopt BEEP
+setopt ignore_eof
 autoload -Uz compinit
 compinit
 
