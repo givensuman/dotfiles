@@ -1,5 +1,5 @@
 {
-  "height": 20,
+  "height": 45,
   "spacing": 8,
   "include": [
     "~/.config/waybar/modules.json"
@@ -15,8 +15,6 @@
     "bluetooth",
     "wireplumber",
     "group/hardware",
-    "custom/clock",
-    "custom/exit",
-    "tray"
+    "custom/clock"
   ]
 }

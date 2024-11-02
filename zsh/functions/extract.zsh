@@ -15,9 +15,9 @@ function extract() {
              *.zip)       unzip $1        ;;
              *.Z)         uncompress $1   ;;
              *.7z)        7z x $1         ;;
-             *)           echo "'$1' cannot be extracted (ノÒ益Ó)ノ彡" ;;
+             *)           echo "$1 could not be extracted" ;;
          esac
      else
-         echo "'$1' is not a valid file (ಥ﹏ಥ)"
+         echo "$1 is not a file"
      fi
 }

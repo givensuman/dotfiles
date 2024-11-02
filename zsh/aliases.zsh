@@ -1,19 +1,13 @@
 #!/bin/zsh
 
-# we stan dotfiles
-alias config.nvim="cd ~/.config/nvim && nvim ."
-alias config.zshrc="nvim ~/.zshrc"
-alias config.zsh="cd ~/.config/zsh && nvim ."
-alias config.hypr="cd ~/.config/hypr && nvim ."
-alias config.rofi="cd ~/.config/rofi && nvim ."
-alias config.alacitty="cd ~/.config/alacritty && nvim ."
-alias config.waybar="cd ~/.config/waybar && nvim ."
+# refresh zsh
+alias refresh="exec zsh"
+
+# list packages
+alias packages="pacman -Q --quiet --explicit --native && pacman -Q --quiet --explicit --foreign | xargs printf '%s [aur]\n'"
 
 # list processes
 alias processes="ps -f"
-
-# display battery status
-alias battery="acpi -b"
 
 # safety first
 alias rm='rm -i'
@@ -30,7 +24,7 @@ alias :q="exit"
 alias ext="exit"
 alias xt="exit"
 alias by="exit"
-alias bye="exit"
+alias 'bye'="exit"
 alias die="exit"
 alias quit="exit"
 

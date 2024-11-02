@@ -9,30 +9,9 @@ local function map(mode, lhs, rhs, opts)
   vim.keymap.set(mode, lhs, rhs, options)
 end
 
--- AstroNvim-like buffer selection
-map("n", "<LEADER>bb", function()
-  require("bufferline").pick()
-end, { desc = "Select Buffer" })
-
--- AstroNvim-like explorer toggle
-map("n", "<LEADER>o", function()
-  if vim.bo.filetype == "neo-tree" then
-    vim.cmd.wincmd("p")
-  else
-    vim.cmd.Neotree("focus")
-  end
-end, { desc = "Toggle Explorer Focus" })
-
 -- Block indentation via tab and shift/tab
 vim.cmd("vnoremap <TAB> >gv")
 vim.cmd("vnoremap <S-TAB> <gv")
--- map("v", "<TAB>", ">gv")
--- map("v", "<S-TAB>", "<gv")
--- :help mode()
--- map("V", "<TAB>", ">gv")
--- map("V", "<S-TAB>", "<gv")
--- map("CTRL-V", "<TAB>", ">gv")
--- map("CTRL-V", "<S-TAB>", "<gv")
 
 -- AstroNvim-like Telescope bindings
 map("n", "<LEADER>f/", function()
@@ -101,14 +80,6 @@ map("n", "<LEADER>fm", function()
   require("telescope.builtin").man_pages()
 end, { desc = "Find man" })
 
--- if is_available("nvim-notify") then
---   map("n", "<LEADER>fn",
---     function()
---       require("telescope").extensions.notify.notify()
---     end,
---     { desc = "Find notifications" })
--- end
-
 map("n", "<LEADER>fo", function()
   require("telescope.builtin").oldfiles()
 end, { desc = "Find history" })
@@ -137,13 +108,3 @@ end
 map("n", "<LEADER>fD", function()
   require("telescope.builtin").diagnostics()
 end, { desc = "Search diagnostics" })
-
--- map("n", "<LEADER>ls",
---   function()
---     if is_available("aerial.nvim") then
---       require("telescope").extensions.aerial.aerial()
---     else
---       require("telescope.builtin").lsp_document_symbols()
---     end
---   end,
---   { desc = "Search symbols" })

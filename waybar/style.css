@@ -34,7 +34,7 @@
 * {
   font-family: "Fira Sans Semibold", "JetBrainsMono Nerd Font", FontAwesome,
     Roboto, Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 22px;
 }
 
 window#waybar {
@@ -42,11 +42,17 @@ window#waybar {
   opacity: 0.8;
   transition-property: background-color;
   transition-duration: 0.5s;
+  border-bottom: solid @crust 2px;
+  padding-bottom: 2px;
 }
 
 window#waybar > * {
   margin-top: 5px;
   margin-bottom: 5px;
+}
+
+.modules-left {
+  margin-left: 12px;
 }
 
 .modules-right * {
@@ -76,7 +82,7 @@ window#waybar > * {
 
 #workspaces button.active {
   color: @base;
-  background-color: @blue;
+  background-color: @lavender;
   border-radius: 5px;
   min-width: 30px;
   transition: all 0.3s ease-in-out;
@@ -104,7 +110,7 @@ tooltip label {
 #window {
   border-radius: 12px;
   font-weight: normal;
-  color: @blue;
+  color: @lavender;
 }
 
 /* -----------------------------------------------------
@@ -120,7 +126,8 @@ tooltip label {
 }
 
 #network.disconnected {
-  background-color: transparent;
+  color: @subtext0;
+  margin-right: 15px;
 }
 
 /* -----------------------------------------------------
@@ -128,20 +135,20 @@ tooltip label {
  * ----------------------------------------------------- */
 
 #bluetooth {
-  font-size: 18px;
+  font-size: 1em;
 }
 
 #bluetooth,
 #bluetooth.on,
 #bluetooth.connected {
-  background-color: @backgroundlight;
-  color: @textcolor2;
+  color: @text;
   border-radius: 15px;
 }
 
 #bluetooth.off {
   background-color: transparent;
   padding: 0px;
+  color: @subtext0;
 }
 
 /* -----------------------------------------------------
@@ -149,32 +156,17 @@ tooltip label {
  * ----------------------------------------------------- */
 
 #battery {
-  background-color: @backgroundlight;
-  color: @textcolor2;
-  border-radius: 15px;
+  color: @text;
+  border-radius: 5px;
 }
 
 #battery.charging,
 #battery.plugged {
-  color: @textcolor2;
-  background-color: @backgroundlight;
-}
-
-@keyframes blink {
-  to {
-    background-color: @backgroundlight;
-    color: @textcolor2;
-  }
+  color: @text;
 }
 
 #battery.critical:not(.charging) {
-  background-color: #f53c3c;
-  color: @textcolor3;
-  animation-name: blink;
-  animation-duration: 0.5s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
+  color: @red;
 }
 
 /* -----------------------------------------------------
@@ -185,21 +177,12 @@ label:focus {
   background-color: #000000;
 }
 
-#backlight {
-  background-color: #90b1b1;
-}
-
-#network {
-  background-color: #2980b9;
-}
-
-#network.disconnected {
-  background-color: #f53c3c;
-}
-
 #custom-clock {
   margin-right: 30px;
-  color: @blue;
+  background-color: @lavender;
+  color: @base;
+  border-radius: 5px;
+  padding: 0 7px;
 }
 
 #hardware {
@@ -208,4 +191,15 @@ label:focus {
 
 #custom-exit {
   margin-right: 25px;
+}
+
+#idle_inhibitor {
+  padding: 0 7px;
+  transition: all 0.3s ease-in-out;
+}
+
+#idle_inhibitor.activated {
+  background-color: @lavender;
+  color: @base;
+  border-radius: 3px;
 }

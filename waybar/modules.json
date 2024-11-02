@@ -36,7 +36,7 @@
     "format": "{:%OI:%M %p}"
   },
   "custom/clock": {
-    "exec": "date +\"%a %b %e  %-I:%M\"",
+    "exec": "date +\"%a %b %e  %-I:%M %p\"",
     "interval": 1,
     "tooltip": false
   },
@@ -56,13 +56,13 @@
     "format": "{ifname}",
     "format-wifi": "    {signalStrength}%",
     "format-ethernet": "     {ipaddr}",
-    "format-disconnected": "󰖪    ",
+    "format-disconnected": "󰖪",
     "tooltip-format": "     {ifname} via {gwaddri}",
     "tooltip-format-wifi": "     {essid} ({signalStrength}%)",
     "tooltip-format-ethernet": "    {ifname} ({ipaddr}/{cidr})",
     "tooltip-format-disconnected": "Disconnected",
     "max-length": 50,
-    "on-click": "foot -e nmtui"
+    "on-click": "nm-connection-editor"
   },
   "battery": {
     "states": {
@@ -92,13 +92,14 @@
       "car": "",
       "default": [" ", " ", " "]
     },
-    "on-click": "pwvucontrol"
+    "on-click": "pwvucontrol",
+    "tooltip": false
   },
   "idle_inhibitor": {
     "format": "{icon}",
     "tooltip": true,
-    "tooltip-format-activated": "Computer will not idle",
-    "tooltip-format-deactivated": "Computer will idle",
+    "tooltip-format-activated": "Presentation Mode",
+    "tooltip-format-deactivated": "Idle Mode",
     "format-icons": {
       "activated": "",
       "deactivated": " "
