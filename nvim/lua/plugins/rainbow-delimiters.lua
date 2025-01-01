@@ -1,3 +1,4 @@
+---@type LazySpec
 return {
   "HiPhish/rainbow-delimiters.nvim",
   dependencies = {
@@ -7,7 +8,6 @@ return {
     {
       "catppuccin",
       optional = true,
-      ---@type CatppuccinOptions
       opts = { integrations = { rainbow_delimiters = true } },
     },
   },

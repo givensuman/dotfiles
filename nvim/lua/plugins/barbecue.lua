@@ -1,3 +1,4 @@
+---@type LazySpec
 return {
   "utilyre/barbecue.nvim",
   name = "barbecue",
@@ -5,10 +6,5 @@ return {
   dependencies = {
     "SmiteshP/nvim-navic",
     "nvim-tree/nvim-web-devicons", -- optional dependency
-  },
-  opts = {
-    theme = {
-      -- normal = { bg = "#161622" },
-    },
   },
 }
