@@ -1,5 +1,4 @@
 jorgebucaran/fisher
-plttn/fish-eza
 patrickf1/fzf.fish
 meaningful-ooo/sponge
 jorgebucaran/autopair.fish
@@ -9,3 +8,8 @@ franciscolourenco/done
 jethrokuan/z
 jorgebucaran/hydro
 catppuccin/fish
+givensuman/fish-copyutils
+givensuman/fish-bat
+jorgebucaran/humantime.fish
+kpbaks/autols.fish
+plttn/fish-eza

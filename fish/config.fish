@@ -26,8 +26,7 @@ set -Ux FZF_DEFAULT_OPTS "\
 --multi"
 
 # eza
-set -Ux EZA_STANDARD_OPTIONS --icons
-alias ls "eza $EZA_STANDARD_OPTIONS"
+alias ls="eza --icons --group-directories-first --git --color-scale"
 
 # hydro prompt
 set -Ux fish_prompt_pwd_dir_length 999
@@ -38,10 +37,11 @@ set --global hydro_color_git f9e2af
 set --global hydro_color_duration 94e2d5
 set --global hydro_multiline true
 
-set --global hydro_symbol_start " "
+set --global hydro_symbol_start "\n"
 set --global hydro_symbol_prompt " "
 set --global hydro_symbol_git_dirty "  "
 set --global hydro_symbol_git_ahead "  "
 set --global hydro_symbol_git_behind "  "
 
-fish_vi_key_bindings
+set -Ux fish_greeting ""
+fish_default_key_bindings
