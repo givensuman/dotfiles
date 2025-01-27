@@ -48,8 +48,10 @@ SETUVAR _fisher_meaningful_2D_ooo_2F_sponge_files:\x7e/\x2econfig/fish/functions
 SETUVAR _fisher_nickeb96_2F_puffer_2D_fish_files:\x7e/\x2econfig/fish/functions/_puffer_fish_expand_bang\x2efish\x1e\x7e/\x2econfig/fish/functions/_puffer_fish_expand_dots\x2efish\x1e\x7e/\x2econfig/fish/functions/_puffer_fish_expand_lastarg\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/puffer_fish_key_bindings\x2efish
 SETUVAR _fisher_patrickf1_2F_fzf_2E_fish_files:\x7e/\x2econfig/fish/functions/_fzf_configure_bindings_help\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_extract_var_info\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_preview_changed_file\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_preview_file\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_report_diff_type\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_report_file_type\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_search_directory\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_search_git_log\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_search_git_status\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_search_history\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_search_processes\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_search_variables\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_wrapper\x2efish\x1e\x7e/\x2econfig/fish/functions/fzf_configure_bindings\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/fzf\x2efish\x1e\x7e/\x2econfig/fish/completions/fzf_configure_bindings\x2efish
 SETUVAR _fisher_plttn_2F_fish_2D_eza_files:\x7e/\x2econfig/fish/functions/eza_git\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/fish\x2deza\x2efish
-SETUVAR _fisher_plugins:jorgebucaran/fisher\x1epatrickf1/fzf\x2efish\x1emeaningful\x2dooo/sponge\x1ejorgebucaran/autopair\x2efish\x1efishingline/safe\x2drm\x1enickeb96/puffer\x2dfish\x1efranciscolourenco/done\x1ejethrokuan/z\x1ejorgebucaran/hydro\x1ecatppuccin/fish\x1egivensuman/fish\x2dcopyutils\x1egivensuman/fish\x2dbat\x1ejorgebucaran/humantime\x2efish\x1ekpbaks/autols\x2efish\x1eplttn/fish\x2deza
+SETUVAR _fisher_plugins:jorgebucaran/fisher\x1epatrickf1/fzf\x2efish\x1emeaningful\x2dooo/sponge\x1ejorgebucaran/autopair\x2efish\x1efishingline/safe\x2drm\x1enickeb96/puffer\x2dfish\x1efranciscolourenco/done\x1ejethrokuan/z\x1ejorgebucaran/hydro\x1ecatppuccin/fish\x1egivensuman/fish\x2dcopyutils\x1egivensuman/fish\x2dbat\x1ejorgebucaran/humantime\x2efish\x1ekpbaks/autols\x2efish\x1eplttn/fish\x2deza\x1erstacruz/fish\x2dasdf
+SETUVAR _fisher_rstacruz_2F_fish_2D_asdf_files:\x7e/\x2econfig/fish/conf\x2ed/asdf\x2efish\x1e\x7e/\x2econfig/fish/completions/asdf\x2efish
 SETUVAR _fisher_upgraded_to_4_4:\x1d
+SETUVAR _hydro_git_11003:\x1d
 SETUVAR _hydro_git_114398:\x1d
 SETUVAR _hydro_git_143934:main\x20\uf418\x20\x20
 SETUVAR _hydro_git_3073:\x1d
@@ -59,7 +61,6 @@ SETUVAR _hydro_git_55148:dev\x20\uf418\x20\x20
 SETUVAR _hydro_git_55610:dev\x20\uf418\x20\x20
 SETUVAR _hydro_git_5671:\x1d
 SETUVAR _hydro_git_59995:main\x20\uf418\x20\x20
-SETUVAR _hydro_git_63373:master\x20\uf418\x20\x20
 SETUVAR --export eza_run_on_cd:true
 SETUVAR fish_color_autosuggestion:brblack
 SETUVAR fish_color_cancel:\x2dr
