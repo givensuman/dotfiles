@@ -29,8 +29,5 @@ return {
         ]],
       },
     },
-    terminal = {
-      position = "float",
-    },
   },
 }
