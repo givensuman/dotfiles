@@ -1,5 +1,19 @@
 {
-  (modifiers: [Super], key: "Return"): Spawn("alacritty"),
-  (modifiers: [], key: "Print"): Spawn("cosmic-screenshot"),
-  (modifiers: [Super], key: "Space"): SwapWindow,
+    (
+        modifiers: [],
+        key: "Print",
+    ): Spawn("cosmic-screenshot"),
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "space",
+    ): SwapWindow,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "Return",
+        description: Some("launch ghostty"),
+    ): Spawn("ghostty"),
 }
