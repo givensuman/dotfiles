@@ -52,7 +52,8 @@ sudo dnf install -y ghostty \
   fzf \
   ripgrep \
   gh \
-  fish
+  fish \
+  openvpn
 
 sudo dnf copr enable atim/lazygit -y
 sudo dnf install lazygit -y

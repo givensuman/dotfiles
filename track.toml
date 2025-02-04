@@ -1,11 +1,18 @@
-[~]
-.tool-versions
+["track"]
 
-[~/.config]
-bat
-cosmic
-fish
-ghostty
-lazygit
-nvim
-wallpapers
+"~" = [".tool-versions"]
+
+"~/.config/" = [
+  "bat",
+  "cosmic",
+  "fish",
+  "ghostty",
+  "lazygit",
+  "nvim",
+  "wallpapers",
+]
+
+["run"]
+
+"before" = []
+"after" = []
