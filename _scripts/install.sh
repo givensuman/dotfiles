@@ -78,3 +78,8 @@ for language in "${languages[@]}"; do
   asdf install "$language" latest
   asdf global "$language" latest
 done
+
+git config --global user.name "givensuman"
+git config --global user.email "givensuman@duck.com"
+git config --global core.editor "nvim"
+git config --global init.defaultBranch "main"
