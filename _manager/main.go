@@ -77,27 +77,14 @@ func main() {
 	for _, value := range tracking {
 		_, err := os.Stat(value)
 		if err != nil {
-			log.Printf("Unable to source tracked file %s, skipping...", value)
+			log.Printf("Unable to source tracked file/dir %s, skipping...", value)
 			continue
 		}
 
-		cmd := exec.Command("cp", value, path)
+		cmd := exec.Command("cp", "-rf", value, path)
 		err = cmd.Run()
 		if err != nil {
-			log.Fatalf("Unable to copy file/dir %s, exiting...", value)
-		}
-	}
-
-	for _, value := range tracking {
-		f, err := os.Stat(value)
-		if err != nil {
-			log.Fatal("Unable to determine if file/dir exists\n", err)
-		}
-		switch mode := f.Mode(); {
-		case mode.IsDir():
-			log.Printf("%s is a directory\n", value)
-		case mode.IsRegular():
-			log.Printf("%s is a regular file\n", value)
+			log.Printf("Unable to copy tracked file/dir %s, skipping...", value)
 		}
 	}
 }

@@ -26,3 +26,7 @@ set --global hydro_symbol_git_behind "  "
 
 set -Ux fish_greeting ""
 fish_default_key_bindings
+
+function refresh
+    source ~/.config/fish/config.fish
+end
