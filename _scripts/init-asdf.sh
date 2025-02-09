@@ -17,6 +17,6 @@ done
 printf "\nInstalling languages...\n\n"
 ~/.asdf/bin/asdf install
 
-printf "\nAll done!\n"
+printf "\nAll done! Here's your ~/.tool-versions:\n"
 
 cat ~/.tool-versions
