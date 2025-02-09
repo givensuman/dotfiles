@@ -2,54 +2,13 @@ package main
 
 import (
 	"log"
+	"manager/internal"
 	"os"
 	"os/exec"
 	"path/filepath"
-	"strings"
 
 	"github.com/pelletier/go-toml/v2"
 )
-
-// Config descriptor of
-// track.toml file
-type Config struct {
-	Track map[string][]string `toml:"track"`
-	Run   map[string][]string `toml:"run"`
-}
-
-// Convert Config struct into a
-// list of parsed/formatted paths
-func parseTracking(config Config) []string {
-	var tracking []string
-	for key := range config.Track {
-		for _, value := range config.Track[key] {
-			path := key
-
-			// Turns      Into
-			// ~/.config/ ~/.config
-			// ~/         ~
-			// /          /
-			if strings.HasSuffix(path, "/") && len(path) > 1 {
-				path = path[:len(path)-1]
-			}
-
-			// Turns      Into
-			// ~/.config  $HOME/.config
-			// ~/         $HOME
-			if strings.HasPrefix(path, "~") {
-				homeDir, err := os.UserHomeDir()
-				if err != nil {
-					log.Fatal("Unable to determine home directory\n", err)
-				}
-				path = homeDir + path[1:]
-			}
-
-			tracking = append(tracking, path+"/"+value)
-		}
-	}
-
-	return tracking
-}
 
 // (> .___. )>
 func main() {
@@ -63,13 +22,13 @@ func main() {
 		log.Fatal("Unable to read track.toml\n", err)
 	}
 
-	var config Config
+	var config internal.Config
 	err = toml.Unmarshal(file, &config)
 	if err != nil {
 		log.Fatal("Unable to parse TOML configuration\n", err)
 	}
 
-	tracking := parseTracking(config)
+	tracking := internal.ParseTracking(config)
 	if len(tracking) == 0 {
 		log.Fatal("Not tracking anything!\n")
 	}
