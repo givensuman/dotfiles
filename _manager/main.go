@@ -1,42 +1,40 @@
 package main
 
 import (
-	"log"
+	"context"
+	"fmt"
 	"manager/cmd"
 	"os"
+
+	"github.com/urfave/cli/v3"
 )
 
-// Commands accepted by the CLI
-type Command struct {
-	Name    string
-	Aliases []string
-	Command func()
-}
-
-var cli = []Command{
-	{
-		Name:    "pull local",
-		Aliases: []string{"pl", "pull-local", "pulllocal"},
-		Command: cmd.PullLocal,
-	},
-	{
-		Name:    "pull remote",
-		Aliases: []string{"pr", "pull-remote", "pullremote"},
-		Command: func() { println("TODO") },
-	},
-}
-
-func parseCommand(args []string) (func(), error) {
-	for _, command := range cli {
-		1
-	}
-}
-
 func main() {
-	run, err := parseCommand(os.Args[1:])
-	if err != nil {
-		log.Fatal(err)
+	cmd := &cli.Command{
+		Name:        "manager",
+		Description: "just a dotfiles manager",
+		UsageText:   "manager pull local/remote",
+
+		Commands: []*cli.Command{
+			{
+				Name:        "pull",
+				Description: "source dotfiles from somewhere",
+
+				Commands: []*cli.Command{
+					{
+						Name:        "local",
+						Description: "source dotfiles from local machine",
+						Action:      cmd.PullLocal,
+					},
+				},
+			},
+		},
 	}
 
-	println(run)
+	err := cmd.Run(context.Background(), os.Args)
+	if err != nil {
+		fmt.Println(err.Error())
+		fmt.Println("try 'manager help' for more information")
+		os.Exit(1)
+	}
 }

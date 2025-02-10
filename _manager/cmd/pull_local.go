@@ -1,6 +1,8 @@
 package cmd
 
 import (
+	"context"
+	"errors"
 	"log"
 	"manager/internal"
 	"os"
@@ -8,41 +10,44 @@ import (
 	"path/filepath"
 
 	"github.com/pelletier/go-toml/v2"
+	"github.com/urfave/cli/v3"
 )
 
-func PullLocal() {
+func PullLocal(ctx context.Context, command *cli.Command) error {
 	path, err := filepath.Abs("..")
 	if err != nil {
-		log.Fatal("Unable to get dotfiles directory\n", err)
+		return errors.New("unable to get dotfiles directory")
 	}
 
 	file, err := os.ReadFile(filepath.Join(path, "track.toml"))
 	if err != nil {
-		log.Fatal("Unable to read track.toml\n", err)
+		return errors.New("unable to read track.toml")
 	}
 
 	var config internal.Config
 	err = toml.Unmarshal(file, &config)
 	if err != nil {
-		log.Fatal("Unable to parse TOML configuration\n", err)
+		return errors.New("unable to parse TOML configuration in track.toml")
 	}
 
 	tracking := internal.ParseTracking(config)
 	if len(tracking) == 0 {
-		log.Fatal("Not tracking anything!\n")
+		return nil
 	}
 
 	for _, value := range tracking {
 		_, err := os.Stat(value)
 		if err != nil {
-			log.Printf("Unable to source tracked file/dir %s, skipping...", value)
+			log.Printf("Unable to source tracked file/dir %s, skipping...\n", value)
 			continue
 		}
 
 		cmd := exec.Command("cp", "-rf", value, path)
 		err = cmd.Run()
 		if err != nil {
-			log.Printf("Unable to copy tracked file/dir %s, skipping...", value)
+			log.Printf("Unable to copy tracked file/dir %s, skipping...\n", value)
 		}
 	}
+
+	return nil
 }
