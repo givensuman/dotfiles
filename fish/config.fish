@@ -1,3 +1,6 @@
+# neovim
+set --global EDITOR nvim
+
 # fzf
 set -Ux FZF_DEFAULT_OPTS "\
 --color=bg+:#313244,bg:#1e1e2e,spinner:#f5e0dc,hl:#f38ba8 \
@@ -26,7 +29,3 @@ set --global hydro_symbol_git_behind "  "
 
 set -Ux fish_greeting ""
 fish_default_key_bindings
-
-function refresh
-    source ~/.config/fish/config.fish
-end

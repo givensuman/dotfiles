@@ -26,6 +26,11 @@ func main() {
 						Description: "source dotfiles from local machine",
 						Action:      cmd.PullLocal,
 					},
+					{
+						Name:        "remote",
+						Description: "source dotfiles from github repository",
+						Action:      cmd.PullRemote,
+					},
 				},
 			},
 		},

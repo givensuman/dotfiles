@@ -7,8 +7,8 @@ return {
     })
   end,
   keys = {
-    { "<LEADER>hw", "<CMD>HopWord<CR>", desc = "Hop To Word" },
-    { "<LEADER>hl", "<CMD>HopLine<CR>", desc = "Hop To Line" },
-    { "<LEADER>ha", "<CMD>HopAnywhere<CR>", desc = "Hop Anywhere" },
+    { "<LEADER>hw", "<CMD>HopWord<CR>", mode = { "n", "v" }, desc = "Hop To Word" },
+    { "<LEADER>hl", "<CMD>HopLine<CR>", mode = { "n", "v" }, desc = "Hop To Line" },
+    { "<LEADER>ha", "<CMD>HopAnywhere<CR>", mode = { "n", "v" }, desc = "Hop Anywhere" },
   },
 }

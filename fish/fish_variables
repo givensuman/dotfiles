@@ -21,7 +21,11 @@ SETUVAR --export EZA_LT_OPTIONS:\x2d\x2dtree\x1e\x2d\x2dlevel
 SETUVAR --export EZA_L_OPTIONS:\x1d
 SETUVAR --export EZA_STANDARD_OPTIONS:\x2d\x2dgroup\x1e\x2d\x2dheader\x1e\x2d\x2dgroup\x2ddirectories\x2dfirst
 SETUVAR --export FZF_DEFAULT_OPTS:\x2d\x2dcolor\x3dbg\x2b\x3a\x23313244\x2cbg\x3a\x231e1e2e\x2cspinner\x3a\x23f5e0dc\x2chl\x3a\x23f38ba8\x20\x2d\x2dcolor\x3dfg\x3a\x23cdd6f4\x2cheader\x3a\x23f38ba8\x2cinfo\x3a\x23cba6f7\x2cpointer\x3a\x23f5e0dc\x20\x2d\x2dcolor\x3dmarker\x3a\x23b4befe\x2cfg\x2b\x3a\x23cdd6f4\x2cprompt\x3a\x23cba6f7\x2chl\x2b\x3a\x23f38ba8\x20\x2d\x2dcolor\x3dselected\x2dbg\x3a\x2345475a\x20\x2d\x2dmulti
+SETUVAR ZO_CMD:zo
+SETUVAR Z_CMD:z
+SETUVAR Z_DATA:/home/given/\x2elocal/share/z/data
 SETUVAR Z_DATA_DIR:/home/given/\x2elocal/share/z
+SETUVAR Z_EXCLUDE:\x5e/home/given\x24
 SETUVAR --export __FISH_EZA_ALIASES:l\x1ela\x1eld\x1eli\x1elid\x1elaa\x1elad\x1elai\x1elaid\x1elaad\x1elaai\x1elaaid\x1ell\x1ella\x1elld\x1elli\x1ellid\x1ellaa\x1ellad\x1ellai\x1ellaid\x1ellaad\x1ellaai\x1ellaaid\x1elg\x1elga\x1elgd\x1elgi\x1elgid\x1elgaa\x1elgad\x1elgai\x1elgaid\x1elgaad\x1elgaai\x1elgaaid\x1ele\x1elea\x1eled\x1elei\x1eleid\x1eleaa\x1elead\x1eleai\x1eleaid\x1eleaad\x1eleaai\x1eleaaid\x1elt\x1elta\x1eltd\x1elti\x1eltid\x1eltad\x1eltai\x1eltaid\x1eltaad\x1eltaai\x1eltaaid\x1elc\x1elca\x1elcd\x1elci\x1elcid\x1elcaa\x1elcad\x1elcai\x1elcaid\x1elcaad\x1elcaai\x1elcaaid\x1elo\x1eloa\x1elod\x1eloi\x1eloid\x1eloaa\x1eload\x1eloai\x1eloaid\x1eloaad\x1eloaai\x1eloaaid
 SETUVAR --export __FISH_EZA_BASE_ALIASES:l\x1ell\x1elg\x1ele\x1elt\x1elc\x1elo
 SETUVAR --export __FISH_EZA_EXPANDED:a\x1ed\x1ei\x1eid\x1eaa\x1ead\x1eai\x1eaid\x1eaad\x1eaai\x1eaaid
@@ -34,6 +38,7 @@ SETUVAR _fisher_fishingline_2F_safe_2D_rm_files:\x7e/\x2econfig/fish/functions/_
 SETUVAR _fisher_franciscolourenco_2F_done_files:\x7e/\x2econfig/fish/conf\x2ed/done\x2efish
 SETUVAR _fisher_givensuman_2F_fish_2D_bat_files:\x7e/\x2econfig/fish/conf\x2ed/bat\x2efish
 SETUVAR _fisher_givensuman_2F_fish_2D_copyutils_files:\x7e/\x2econfig/fish/functions/copybuffer\x2efish\x1e\x7e/\x2econfig/fish/functions/copyfile\x2efish\x1e\x7e/\x2econfig/fish/functions/copypath\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/copyutils\x2efish\x1e\x7e/\x2econfig/fish/completions/copyutils\x2efish
+SETUVAR _fisher_jethrokuan_2F_z_files:\x7e/\x2econfig/fish/functions/__z\x2efish\x1e\x7e/\x2econfig/fish/functions/__z_add\x2efish\x1e\x7e/\x2econfig/fish/functions/__z_clean\x2efish\x1e\x7e/\x2econfig/fish/functions/__z_complete\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/z\x2efish
 SETUVAR _fisher_jhillyerd_2F_plugin_2D_git_files:\x7e/\x2econfig/fish/functions/__git\x2ebranch_has_wip\x2efish\x1e\x7e/\x2econfig/fish/functions/__git\x2ecurrent_branch\x2efish\x1e\x7e/\x2econfig/fish/functions/__git\x2edefault_branch\x2efish\x1e\x7e/\x2econfig/fish/functions/__git\x2edestroy\x2efish\x1e\x7e/\x2econfig/fish/functions/__git\x2einit\x2efish\x1e\x7e/\x2econfig/fish/functions/gbage\x2efish\x1e\x7e/\x2econfig/fish/functions/gbda\x2efish\x1e\x7e/\x2econfig/fish/functions/gdv\x2efish\x1e\x7e/\x2econfig/fish/functions/gignored\x2efish\x1e\x7e/\x2econfig/fish/functions/glp\x2efish\x1e\x7e/\x2econfig/fish/functions/grename\x2efish\x1e\x7e/\x2econfig/fish/functions/grt\x2efish\x1e\x7e/\x2econfig/fish/functions/gtest\x2efish\x1e\x7e/\x2econfig/fish/functions/gtl\x2efish\x1e\x7e/\x2econfig/fish/functions/gunwip\x2efish\x1e\x7e/\x2econfig/fish/functions/gwip\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/git\x2efish
 SETUVAR _fisher_jorgebucaran_2F_autopair_2E_fish_files:\x7e/\x2econfig/fish/functions/_autopair_backspace\x2efish\x1e\x7e/\x2econfig/fish/functions/_autopair_insert_left\x2efish\x1e\x7e/\x2econfig/fish/functions/_autopair_insert_right\x2efish\x1e\x7e/\x2econfig/fish/functions/_autopair_insert_same\x2efish\x1e\x7e/\x2econfig/fish/functions/_autopair_tab\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/autopair\x2efish
 SETUVAR _fisher_jorgebucaran_2F_fisher_files:\x7e/\x2econfig/fish/functions/fisher\x2efish\x1e\x7e/\x2econfig/fish/completions/fisher\x2efish
@@ -44,22 +49,29 @@ SETUVAR _fisher_meaningful_2D_ooo_2F_sponge_files:\x7e/\x2econfig/fish/functions
 SETUVAR _fisher_nickeb96_2F_puffer_2D_fish_files:\x7e/\x2econfig/fish/functions/_puffer_fish_expand_bang\x2efish\x1e\x7e/\x2econfig/fish/functions/_puffer_fish_expand_dots\x2efish\x1e\x7e/\x2econfig/fish/functions/_puffer_fish_expand_lastarg\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/puffer_fish_key_bindings\x2efish
 SETUVAR _fisher_patrickf1_2F_fzf_2E_fish_files:\x7e/\x2econfig/fish/functions/_fzf_configure_bindings_help\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_extract_var_info\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_preview_changed_file\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_preview_file\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_report_diff_type\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_report_file_type\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_search_directory\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_search_git_log\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_search_git_status\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_search_history\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_search_processes\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_search_variables\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_wrapper\x2efish\x1e\x7e/\x2econfig/fish/functions/fzf_configure_bindings\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/fzf\x2efish\x1e\x7e/\x2econfig/fish/completions/fzf_configure_bindings\x2efish
 SETUVAR _fisher_plttn_2F_fish_2D_eza_files:\x7e/\x2econfig/fish/functions/eza_git\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/fish\x2deza\x2efish
-SETUVAR _fisher_plugins:jorgebucaran/fisher\x1epatrickf1/fzf\x2efish\x1emeaningful\x2dooo/sponge\x1ejorgebucaran/autopair\x2efish\x1efishingline/safe\x2drm\x1enickeb96/puffer\x2dfish\x1efranciscolourenco/done\x1ejorgebucaran/hydro\x1ecatppuccin/fish\x1egivensuman/fish\x2dcopyutils\x1egivensuman/fish\x2dbat\x1ejorgebucaran/humantime\x2efish\x1ekpbaks/autols\x2efish\x1eplttn/fish\x2deza\x1erstacruz/fish\x2dasdf\x1ejhillyerd/plugin\x2dgit
+SETUVAR _fisher_plugins:jorgebucaran/fisher\x1epatrickf1/fzf\x2efish\x1emeaningful\x2dooo/sponge\x1ejorgebucaran/autopair\x2efish\x1efishingline/safe\x2drm\x1enickeb96/puffer\x2dfish\x1efranciscolourenco/done\x1ejethrokuan/z\x1ejorgebucaran/hydro\x1ecatppuccin/fish\x1egivensuman/fish\x2dcopyutils\x1egivensuman/fish\x2dbat\x1ejorgebucaran/humantime\x2efish\x1ekpbaks/autols\x2efish\x1eplttn/fish\x2deza\x1erstacruz/fish\x2dasdf\x1ejhillyerd/plugin\x2dgit
 SETUVAR _fisher_rstacruz_2F_fish_2D_asdf_files:\x7e/\x2econfig/fish/conf\x2ed/asdf\x2efish\x1e\x7e/\x2econfig/fish/completions/asdf\x2efish
 SETUVAR _fisher_upgraded_to_4_4:\x1d
+SETUVAR _hydro_git_10371:wip\x20\uf418\x20\x20\x20\uf148\x201\x20
 SETUVAR _hydro_git_114398:\x1d
 SETUVAR _hydro_git_143934:main\x20\uf418\x20\x20
-SETUVAR _hydro_git_2603:main\x20\uf418\x20\x20
-SETUVAR _hydro_git_2656:master\x20\uf418\x20\x20
+SETUVAR _hydro_git_17584:lab04\x2db\x20\uf418\x20\x20
+SETUVAR _hydro_git_24658:main\x20\uf418\x20\x20
 SETUVAR _hydro_git_3073:\x1d
-SETUVAR _hydro_git_36794:master\x20\uf418\x20\x20
-SETUVAR _hydro_git_4014:master\x20\uf418\x20\x20
+SETUVAR _hydro_git_30881:master\x20\uf418\x20\x20
+SETUVAR _hydro_git_3376:main\x20\uf418\x20\x20
+SETUVAR _hydro_git_4014:\x1d
+SETUVAR _hydro_git_4520:master\x20\uf418\x20\x20
+SETUVAR _hydro_git_4643:main\x20
 SETUVAR _hydro_git_47566:dev\x20\uf418\x20\x20
 SETUVAR _hydro_git_48398:dev\x20\uf418\x20\x20
 SETUVAR _hydro_git_55148:dev\x20\uf418\x20\x20
 SETUVAR _hydro_git_55610:dev\x20\uf418\x20\x20
 SETUVAR _hydro_git_5671:\x1d
 SETUVAR _hydro_git_59995:main\x20\uf418\x20\x20
+SETUVAR _hydro_git_6253:main\x20
+SETUVAR _hydro_git_7294:main\x20\uf418\x20\x20
+SETUVAR _hydro_git_8459:main\x20
 SETUVAR --export eza_run_on_cd:true
 SETUVAR fish_color_autosuggestion:brblack
 SETUVAR fish_color_cancel:\x2dr
