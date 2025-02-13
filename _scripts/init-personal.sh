@@ -6,6 +6,7 @@ sudo dnf install -y ghostty \
   neovim \
   eza \
   bat \
+  chafa \
   fzf \
   ripgrep \
   gh \
