@@ -2,16 +2,15 @@ jorgebucaran/fisher
 patrickf1/fzf.fish
 meaningful-ooo/sponge
 jorgebucaran/autopair.fish
-fishingline/safe-rm
 nickeb96/puffer-fish
 franciscolourenco/done
 jethrokuan/z
 jorgebucaran/hydro
 catppuccin/fish
 givensuman/fish-copyutils
-givensuman/fish-bat
 jorgebucaran/humantime.fish
 kpbaks/autols.fish
 plttn/fish-eza
 rstacruz/fish-asdf
 jhillyerd/plugin-git
+givensuman/fish-bat

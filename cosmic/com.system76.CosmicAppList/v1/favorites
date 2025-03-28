@@ -2,5 +2,8 @@
     "com.system76.CosmicSettings",
     "com.system76.CosmicStore",
     "com.system76.CosmicFiles",
-    "org.mozilla.firefox",
+    "zen",
+    "discord",
+    "Code",
+    "com.mitchellh.ghostty",
 ]

@@ -4,6 +4,11 @@
 
 "~/.config/" = [
   "bat",
+  "eza",
+  "ripgrep",
+  "delta",
+  "bottom",
+  "tldr",
   "cosmic",
   "fish",
   "ghostty",

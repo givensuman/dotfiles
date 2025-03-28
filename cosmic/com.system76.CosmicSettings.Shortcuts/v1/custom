@@ -1,9 +1,5 @@
 {
     (
-        modifiers: [],
-        key: "Print",
-    ): Spawn("cosmic-screenshot"),
-    (
         modifiers: [
             Super,
         ],

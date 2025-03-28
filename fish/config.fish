@@ -9,8 +9,11 @@ set -Ux FZF_DEFAULT_OPTS "\
 --color=selected-bg:#45475a \
 --multi"
 
-# eza
+# modern unix
 alias ls="eza --icons --group-directories-first --git --color-scale"
+alias grep="rg --color=always --no-heading --line-number --with-filename"
+alias df="duf"
+alias diff="delta"
 
 # hydro prompt
 set -Ux fish_prompt_pwd_dir_length 999
@@ -29,3 +32,6 @@ set --global hydro_symbol_git_behind "  "
 
 set -Ux fish_greeting ""
 fish_default_key_bindings
+
+bind \cf forward-char # accept whole prompt
+bind \cg forward-word # accept next word
