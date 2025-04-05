@@ -1,6 +1,5 @@
 ---@type LazySpec
 return {
-  { import = "lazyvim.plugins.extras.coding.mini-comment" },
   {
     "echasnovski/mini.comment",
     opts = {

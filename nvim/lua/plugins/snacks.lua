@@ -41,14 +41,13 @@ return {
     terminal = { enabled = true, win = { position = "float", backdrop = 60 } },
     picker = { enabled = true },
     quickfile = { enabled = true },
+    debug = { enabled = true },
+    dim = { enabled = true },
+    animate = { enabled = true },
     scroll = { enabled = true },
     statuscolumn = { enabled = true },
     words = { enabled = true },
-    styles = {
-      notification = {
-        wo = { wrap = true },
-      },
-    },
+    lazygit = { enabled = true },
   },
   keys = {
     {

@@ -8,6 +8,6 @@ return {
     vim.o.termguicolors = true
   end,
   opts = {
-    show_warnings = true,
+    show_warnings = false,
   },
 }
