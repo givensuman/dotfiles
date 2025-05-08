@@ -61,8 +61,10 @@ SETUVAR _hydro_git_36794:master\x20\uf418\x20\x20
 SETUVAR _hydro_git_4014:master\x20\uf418\x20\x20
 SETUVAR _hydro_git_47566:dev\x20\uf418\x20\x20
 SETUVAR _hydro_git_48398:dev\x20\uf418\x20\x20
+SETUVAR _hydro_git_4971:convert\x2dstack\x20\uf418\x20\x20\x20\uf148\x201\x20
 SETUVAR _hydro_git_55148:dev\x20\uf418\x20\x20
 SETUVAR _hydro_git_55610:dev\x20\uf418\x20\x20
+SETUVAR _hydro_git_5608:convert\x2dstack\x20\uf418\x20\x20\x20\uf148\x201\x20
 SETUVAR _hydro_git_5671:\x1d
 SETUVAR _hydro_git_59995:main\x20\uf418\x20\x20
 SETUVAR --export eza_run_on_cd:true

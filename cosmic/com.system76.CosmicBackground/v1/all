@@ -1,6 +1,6 @@
 (
     output: "all",
-    source: Path("/home/geeksquad/.config/wallpapers/Yosemite/Yosemite Dark.jpg"),
+    source: Path("/home/given/Pictures/wallpapers/Yosemite/Yosemite Dark.jpg"),
     filter_by_theme: true,
     rotation_frequency: 300,
     filter_method: Lanczos,
