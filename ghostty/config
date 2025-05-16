@@ -3,16 +3,22 @@ theme = catppuccin-mocha
 window-padding-x = 15
 window-padding-y = 5
 
+mouse-hide-while-typing = true
+
 confirm-close-surface = false
 quit-after-last-window-closed = true
 
 background-opacity = 0.9
-background-blur-radius = 20
-
-adjust-cursor-thickness = 3
+background-blur = true
+background-blur-radius = 10
 
 font-size = 12
-font-family = "Hack Nerd Font"
-font-family-bold = "Hack Nerd Font Bold"
-font-family-italic = "Hack Nerd Font Italic"
-font-family-bold-italic = "Hack Nerd Font Bold Italic"
+font-family = "JetBrains Mono Nerd Font"
+font-family-bold = "JetBrains Mono Nerd Font Bold"
+font-family-italic = "JetBrains Mono Nerd Font Italic"
+font-family-bold-italic = "JetBrains Mono Nerd Font Bold Italic"
+
+keybind = ctrl+t=new_tab
+keybind = ctrl+w=close_tab
+keybind = ctrl+[=previous_tab
+keybind = ctrl+]=next_tab

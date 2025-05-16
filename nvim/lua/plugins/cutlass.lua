@@ -1,4 +1,3 @@
----@type LazySpec
 return {
   "gbprod/cutlass.nvim",
   opts = {

@@ -60,15 +60,15 @@
         alpha: 0.5,
     ),
     border: (
-        red: 0.7168879,
-        green: 0.738338,
-        blue: 0.8388994,
+        red: 0.7168882,
+        green: 0.73833823,
+        blue: 0.8388976,
         alpha: 1.0,
     ),
     disabled_border: (
-        red: 0.7168879,
-        green: 0.738338,
-        blue: 0.8388994,
+        red: 0.7168882,
+        green: 0.73833823,
+        blue: 0.8388976,
         alpha: 0.5,
     ),
 )

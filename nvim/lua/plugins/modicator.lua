@@ -1,4 +1,3 @@
----@type LazySpec
 return {
   "mawkler/modicator.nvim",
   dependencies = "catppuccin/nvim",

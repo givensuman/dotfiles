@@ -1,4 +1,3 @@
----@type LazySpec
 return {
   "folke/snacks.nvim",
   priority = 1000,
@@ -6,6 +5,7 @@ return {
   ---@type snacks.Config
   opts = {
     bigfile = { enabled = true },
+    ---@type snacks.dashboard.Config
     dashboard = {
       enabled = true,
       preset = {
@@ -34,12 +34,15 @@ return {
     },
     indent = { enabled = true },
     input = { enabled = true },
+    ---@type snacks.notifier.Config
     notifier = {
       enabled = true,
       timeout = 3000,
     },
+    ---@type snacks.terminal.Config
     terminal = { enabled = true, win = { position = "float", backdrop = 60 } },
-    picker = { enabled = true },
+    ---@type snacks.picker.Config
+    picker = { enabled = true, auto_close = true },
     quickfile = { enabled = true },
     debug = { enabled = true },
     dim = { enabled = true },
