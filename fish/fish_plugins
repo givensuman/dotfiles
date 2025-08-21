@@ -5,13 +5,10 @@ jorgebucaran/autopair.fish
 fishingline/safe-rm
 nickeb96/puffer-fish
 franciscolourenco/done
-jorgebucaran/hydro
-catppuccin/fish
 givensuman/fish-copyutils
 givensuman/fish-bat
-jorgebucaran/humantime.fish
-kpbaks/autols.fish
-plttn/fish-eza
-rstacruz/fish-asdf
+givensuman/fish-eza
+givensuman/fish-zoxide
 jhillyerd/plugin-git
-kidonng/zoxide.fish
+halostatue/fish-mise
+jorgebucaran/hydro

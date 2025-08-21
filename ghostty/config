@@ -9,14 +9,12 @@ confirm-close-surface = false
 quit-after-last-window-closed = true
 
 background-opacity = 0.9
-background-blur = true
-background-blur-radius = 10
 
 font-size = 12
-font-family = "JetBrains Mono Nerd Font"
-font-family-bold = "JetBrains Mono Nerd Font Bold"
-font-family-italic = "JetBrains Mono Nerd Font Italic"
-font-family-bold-italic = "JetBrains Mono Nerd Font Bold Italic"
+font-family = "Hack Mono Nerd Font"
+font-family-bold = "Hack Mono Nerd Font Bold"
+font-family-italic = "Hack Mono Nerd Font Italic"
+font-family-bold-italic = "Hack Mono Nerd Font Bold Italic"
 
 keybind = ctrl+t=new_tab
 keybind = ctrl+w=close_tab

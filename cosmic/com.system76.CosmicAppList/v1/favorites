@@ -1,10 +1,9 @@
 [
     "com.system76.CosmicFiles",
-    "org.gnome.Software",
-    "org.mozilla.firefox",
-    "Podman Desktop",
+    "firefox",
     "com.mitchellh.ghostty",
-    "discord",
+    "Code",
+    "Docker Desktop",
     "Spotify",
-    "localsend",
+    "discord",
 ]

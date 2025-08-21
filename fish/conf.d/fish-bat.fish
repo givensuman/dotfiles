@@ -1,5 +1,5 @@
 function _fish_bat_install --on-event fish-bat_install
-    # For Ubuntu and Debian-based `bat` packages
+    # For Ubuntu and Debian-based `bat`packages
     # the `bat` program is named `batcat`
     if command -q batcat
         alias rcat="$(which cat)"
