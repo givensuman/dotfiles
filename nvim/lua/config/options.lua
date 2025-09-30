@@ -1,7 +1,5 @@
 vim.g.mapleader = " "
 
-local opt = vim.opt
-
-opt.wrap = true
-opt.showmode = false
-opt.cursorline = true
+vim.opt.wrap = true
+vim.opt.showmode = false
+vim.opt.cursorline = false

@@ -1,4 +1,4 @@
-function lt --wraps='eza $EZA_STANDARD_OPTIONS $EZA_LT_OPTIONS' --description 'alias lt eza $EZA_STANDARD_OPTIONS $EZA_LT_OPTIONS'
-  eza $EZA_STANDARD_OPTIONS $EZA_LT_OPTIONS $argv
-        
+# alias lt='eza --tree $eza_params'
+function lt --wraps _ls
+    _ls --tree --level=2 $argv
 end

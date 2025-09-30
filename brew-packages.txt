@@ -1,0 +1,11 @@
+neovim
+fzf
+fd
+bat
+eza
+ripgrep
+zoxide
+lazygit
+mise
+github-cli
+delve

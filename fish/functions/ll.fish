@@ -1,4 +1,4 @@
-function ll --wraps=eza_git --description 'alias ll eza_git'
-  eza_git $argv
-        
+# alias ll='eza --all --header --long $eza_params'
+function ll --wraps _ls
+    _ls --all --header --long $argv
 end

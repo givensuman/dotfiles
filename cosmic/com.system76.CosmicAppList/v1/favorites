@@ -1,9 +1,12 @@
 [
     "com.system76.CosmicFiles",
+    "com.system76.CosmicStore",
     "firefox",
     "com.mitchellh.ghostty",
     "Code",
-    "Docker Desktop",
+    "GitHub Desktop",
+    "Podman Desktop",
     "Spotify",
     "discord",
+    "localsend",
 ]

@@ -1,4 +1,4 @@
-function l --wraps='eza $EZA_STANDARD_OPTIONS $EZA_L_OPTIONS' --description 'alias l eza $EZA_STANDARD_OPTIONS $EZA_L_OPTIONS'
-  eza $EZA_STANDARD_OPTIONS $EZA_L_OPTIONS $argv
-        
+# alias l='eza --git-ignore $eza_params'
+function l --wraps _ls
+    _ls --git-ignore $argv
 end
