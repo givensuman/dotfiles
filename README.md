@@ -1,5 +1,18 @@
-### dotfiles
+# dotfiles
 
-these are my dotfiles
+Intended for use with [Dune OS](github.com/givensuman/dune-os)
 
-![screenshot-2025-02-09-02-33-57](https://github.com/user-attachments/assets/89834d66-0b38-4c3d-9b96-2282f7d69a2d)
+<img width="1920" height="1080" alt="Screenshot_2025-09-30_11-59-01" src="https://github.com/user-attachments/assets/fa65db2d-7761-4525-9a29-3fae4fe2e08b" />
+
+
+### Install brew packages
+
+```
+xargs brew install < brew-packages.txt
+```
+
+### Update brew packages
+
+```
+brew leaves > brew-packages.txt
+```
